@@ -1,11 +1,10 @@
 # **Volha Barouskaya**
 
-*****************
 ## **Contact information:**
 
-+ *Phone:* 511422043
-+ *E-mail:* barouskayavolha@gmail.com
-+ *GitHub:* [Volhabo](https://github.com/Volhabo )
++ **Phone:** 511422043
++ **E-mail:** barouskayavolha@gmail.com
++ **GitHub:** [Volhabo](https://github.com/Volhabo )
 
 
 ****************
@@ -17,12 +16,12 @@ Security systems design experience, including such systems as fire alarm, access
 *******************
 ## **Skills**
 + Java (Basic)
-+ MySQL
++ QA (Basic)
 
 *******************
 ## **Code Example**
-[Условие задачи codewars](https://www.codewars.com/kata/55a2d7ebe362935a210000b2/train/java)
-
+[Task  from codewars](https://www.codewars.com/kata/55a2d7ebe362935a210000b2/train/java)
+```
      public static int findSmallestInt(int[] args) {
         int min = args[0];
         for (int i = 1; i < args.length; i++) {
@@ -32,7 +31,7 @@ Security systems design experience, including such systems as fire alarm, access
         }
         return min;
     }
-
+```
 *******************
 ## **Education**
 + **University:** Belarusian State University of Informatics And Radioelectronics 
