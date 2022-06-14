@@ -8,7 +8,7 @@
 
 
 ****************
-## **Abut me:** 
+## **About me:** 
 
 Professional specialist in educational with 5+ years of experience in university teaching. 
 Security systems design experience, including such systems as fire alarm, access control and restriction, etc.
