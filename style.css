@@ -1,0 +1,20 @@
+p {
+    color: black;
+    font-weight: bold;
+    font-style: italic;
+    font-size: larger;
+}
+
+.main-paragraph {
+    color: blue;
+    font-weight: bolder;
+    font-style: italic; 
+    font-size: x-large;
+}
+
+.code-paragraph {
+    color: rgba(0, 0, 0, 0.511);
+    font-weight: lighter;
+    font-style: normal;
+
+}
