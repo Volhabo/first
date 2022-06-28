@@ -1,15 +1,8 @@
 p {
     color: black;
-    font-weight: bold;
+    font-weight: normal;
     font-style: italic;
     font-size: larger;
-}
-
-.main-paragraph {
-    color: blue;
-    font-weight: bolder;
-    font-style: italic; 
-    font-size: x-large;
 }
 
 .code-paragraph {
@@ -17,4 +10,34 @@ p {
     font-weight: lighter;
     font-style: normal;
 
+}
+
+.list-main {
+    background-color: rgba(48, 179, 223, 0.877);
+}
+
+.list-menu {
+    background-color: rgb(32, 97, 248); 
+
+}
+
+.list-section {
+    background-color: lightpink; 
+
+}
+
+.list-code {
+    background-color: darkgray;
+}
+
+.list-footer {
+    background-color: rgb(32, 97, 248);
+}
+
+.main-header {
+    color: blue;
+    font-weight: bolder;
+    font-style: italic; 
+    font-size: x-large;
+    background-color:rgba(48, 179, 223, 0.877);
 }
