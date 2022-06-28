@@ -1,43 +1,44 @@
 p {
     color: black;
     font-weight: normal;
-    font-style: italic;
+    font-style: normal ;
     font-size: larger;
 }
 
-.code-paragraph {
-    color: rgba(0, 0, 0, 0.511);
-    font-weight: lighter;
-    font-style: normal;
-
-}
-
 .list-main {
-    background-color: rgba(48, 179, 223, 0.877);
+    background-color:  rgba(255, 182, 193, 0.077);
 }
 
 .list-menu {
-    background-color: rgb(32, 97, 248); 
+    background-color: rgba(255, 182, 193, 0.795);
+    color: black;
+    font-weight: normal;
+    font-style: italic;
+    font-size: medium;
 
 }
 
 .list-section {
-    background-color: lightpink; 
+    background-color: rgba(255, 182, 193, 0.421); 
 
 }
 
 .list-code {
-    background-color: darkgray;
+    background-color: rgba(169, 169, 169, 0.425);
 }
 
 .list-footer {
-    background-color: rgb(32, 97, 248);
+    background-color: rgba(255, 182, 193, 0.795);
+    color: black;
+    font-weight: normal;
+    font-style: italic;
+    font-size: medium;
 }
 
 .main-header {
-    color: blue;
+    color: black;
     font-weight: bolder;
     font-style: italic; 
     font-size: x-large;
-    background-color:rgba(48, 179, 223, 0.877);
+   
 }
