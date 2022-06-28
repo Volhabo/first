@@ -9,13 +9,13 @@
     <link rel="stylesheet" href="style.css">
     <title>CV</title>
 </head>
-<body>
+<body class="list-main">
     <header>
-        <h1 class="main-paragraph">Volha Barouskaya</h1> 
-        <img alt="kotik_IT"src="https://papik.pro/uploads/posts/2022-01/1642400001_5-papik-pro-p-stiker-kompyuter-5.png" width="30%" height="30%"/>
+        <h1 class="main-header">Volha Barouskaya</h1> 
+        <img alt="kotik_IT" src="https://papik.pro/uploads/posts/2022-01/1642400001_5-papik-pro-p-stiker-kompyuter-5.png" width="103" height="66"/>
         <p>Front-end developer</p>
         <nav>
-            <ul>
+            <ul class="list-menu">
                 <li><a href="#contact">Contact information</a></li>
                 <li><a href="#about">About me</a></li>
                 <li><a href="#skills">Skills</a></li>   
@@ -27,28 +27,26 @@
     </header>
        
     <main>
-        <section>
+        <section class="list-section">
             <div id="contact">
                 <h2>Contact</h2>
-                <p>
-                    <ul>
-                        <li>GitHub: 
-                            <a href="https://github.com/Volhabo" target="_blank"> Volhabo</a>
-                        </li>
-                        <li>Discord: Volha#6433</li>
-                        <li>E-mail: barouskayavolha@gmail.com</li>
-                    </ul>              
-                </p>
-                
+                <ul>
+                    <li>GitHub: 
+                        <a href="https://github.com/Volhabo" target="_blank"> Volhabo</a>
+                    </li>
+                    <li>Discord: Volha#6433</li>
+                    <li>E-mail: barouskayavolha@gmail.com</li>
+                </ul>              
+                                
             </div>
         </section>
-        <section>
+        <section class="list-section">
             <div id="about">
                 <h2>About me</h2>
                 <p>Professional specialist in educational with 5+ years of experience in university teaching. Security systems design experience, including such systems as fire alarm, access control and restriction, etc.</p>
             </div> 
         </section>
-        <section>
+        <section class="list-section">
             <div id="skills">
                 <h2>Skills</h2>
                 <ul>
@@ -57,28 +55,26 @@
                 </ul>
             </div>  
         </section>     
-        <section>
+        <section class="list-section">
             <div id="code">
                 <h2>Code Example</h2>
                 <a href="https://www.codewars.com/kata/55a2d7ebe362935a210000b2/train/java" target="_blank">
                     <p>Task from codewars</p>
                 </a>
-                <code>
-                    <pre>
-                    public static int findSmallestInt(int[] args) {
-                        int min = args[0];
-                        for (int i = 1; i < args.length; i++) {
-                            if (args[i] < min) {
+                <code class="list-code">
+                    <pre>public static int findSmallestInt(int[] args) {
+                          int min = args[0];
+                          for (int i = 1; i &lt args.length; i++) {
+                            if (args[i] &lt min) {
                                 min = args[i];
                             }
-                        }
-                        return min;
-                    }               
-                    </pre>
+                          }
+                          return min;
+                         }</pre>
                 </code> 
             </div>    
         </section>    
-        <section>
+        <section class="list-section">
             <div id="education">
                 <h2>Education</h2>
                 <ul>
@@ -87,7 +83,7 @@
                 </ul>
             </div>
         </section>
-        <section>
+        <section class="list-section">
             <div id="languages">
                 <h2>Languages</h2>
                 <ul>
@@ -97,13 +93,13 @@
                 </ul>
             </div>
         </section>           
-    <main> 
+    </main> 
 
-    <footer>
+    <footer class="list-footer">
         <a href="https://github.com/Volhabo" target="_blank">Volhabo</a>
         <p>2022</p>
-        <a href="https://rs.school/js/" target="_blank"></a>
-            <img src="https://rs.school/images/rs_school_js.svg" alt="rs_school logo" width="10%" heigt="10%">
+        <a href="https://rs.school/js/" target="_blank">
+            <img src="https://rs.school/images/rs_school_js.svg" alt="rs_school logo" width="40" heigt="40">
         </a>
     </footer>
 
