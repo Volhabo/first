@@ -3,60 +3,110 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scable=yes">
+    <meta name="description" content="CV">
+    <meta name="keywords" content="rsschool, skills, CV">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>CV</title>
 </head>
 <body>
     <header>
-        <p class="main-paragraph">Volha Barouskaya</p> 
+        <h1 class="main-paragraph">Volha Barouskaya</h1> 
+        <img alt="kotik_IT"src="https://papik.pro/uploads/posts/2022-01/1642400001_5-papik-pro-p-stiker-kompyuter-5.png" width="30%" height="30%"/>
+        <p>Front-end developer</p>
+        <nav>
+            <ul>
+                <li><a href="#contact">Contact information</a></li>
+                <li><a href="#about">About me</a></li>
+                <li><a href="#skills">Skills</a></li>   
+                <li><a href="#code">Code Example</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#languages">Languages</a></li>
+            </ul>
+        </nav>
     </header>
-        <img alt="kotik_v_ochkakh"src="https://funart.pro/uploads/posts/2021-07/1626361156_32-funart-pro-p-kotik-v-ochkakh-zhivotnie-krasivo-foto-55.jpg" width="100" height="80"/>
-    
+       
     <main>
-     <p>Contact:</p>
-        <ul>
-         <li>Phone: 511422043</li>
-         <li>E-mail: barouskayavolha@gmail.com</li>
-         <li>GitHub:<a href="https://github.com/Volhabo" target="_blank">Volhabo</a></li>
-     </ul>    
-    </main>    
-   
-
-    <p>About me:</p>
-    Professional specialist in educational with 5+ years of experience in university teaching. Security systems design experience, including such systems as fire alarm, access control and restriction, etc.
-    <p>Skills</p>
-    <ul>
-        <li>Java (Basic)</li>
-        <li>QA (Basic)</li>
-    </ul>
-    <p>Code Example</p>
-    <a href="https://www.codewars.com/kata/55a2d7ebe362935a210000b2/train/java"target="_blank">Task from codewars</a>
-    <p class="code-paragraph"><code>
-        public static int findSmallestInt(int[] args) {<Br>
-            int min = args[0];<Br>
-            for (int i = 1; i < args.length; i++) {<Br>
-                if (args[i] < min) {<Br>
-                    min = args[i];<Br>
-                }<Br>
-            }<Br>
-            return min;<Br>
-        }<Br>
-    </code> </p>
+        <section>
+            <div id="contact">
+                <h2>Contact</h2>
+                <p>
+                    <ul>
+                        <li>GitHub: 
+                            <a href="https://github.com/Volhabo" target="_blank"> Volhabo</a>
+                        </li>
+                        <li>Discord: Volha#6433</li>
+                        <li>E-mail: barouskayavolha@gmail.com</li>
+                    </ul>              
+                </p>
+                
+            </div>
+        </section>
+        <section>
+            <div id="about">
+                <h2>About me</h2>
+                <p>Professional specialist in educational with 5+ years of experience in university teaching. Security systems design experience, including such systems as fire alarm, access control and restriction, etc.</p>
+            </div> 
+        </section>
+        <section>
+            <div id="skills">
+                <h2>Skills</h2>
+                <ul>
+                    <li>Java (Basic)</li>
+                    <li>QA (Basic)</li>
+                </ul>
+            </div>  
+        </section>     
+        <section>
+            <div id="code">
+                <h2>Code Example</h2>
+                <a href="https://www.codewars.com/kata/55a2d7ebe362935a210000b2/train/java" target="_blank">
+                    <p>Task from codewars</p>
+                </a>
+                <code>
+                    <pre>
+                    public static int findSmallestInt(int[] args) {
+                        int min = args[0];
+                        for (int i = 1; i < args.length; i++) {
+                            if (args[i] < min) {
+                                min = args[i];
+                            }
+                        }
+                        return min;
+                    }               
+                    </pre>
+                </code> 
+            </div>    
+        </section>    
+        <section>
+            <div id="education">
+                <h2>Education</h2>
+                <ul>
+                    <li>University: Belarusian State University of Informatics And Radioelectronics</li>
+                    <li>Courses: QAForEveryone</li>
+                </ul>
+            </div>
+        </section>
+        <section>
+            <div id="languages">
+                <h2>Languages</h2>
+                <ul>
+                    <li>Russian - Native</li>
+                    <li>English - Basic</li>
+                    <li>Polish - Intermediate</li>
+                </ul>
+            </div>
+        </section>           
+    <main> 
 
     <footer>
-    <p>Education</p>
-    <ul>
-        <li>University: Belarusian State University of Informatics And Radioelectronics</li>
-        <li>Courses: QAForEveryone</li>
-    </ul>
+        <a href="https://github.com/Volhabo" target="_blank">Volhabo</a>
+        <p>2022</p>
+        <a href="https://rs.school/js/" target="_blank"></a>
+            <img src="https://rs.school/images/rs_school_js.svg" alt="rs_school logo" width="10%" heigt="10%">
+        </a>
     </footer>
 
-    <p>Languages</p>
-    <ul>
-        <li>Russian - Native</li>
-        <li>English - Basic</li>
-        <li>Polish - Intermediate</li>
-    </ul>
+    
 </body>
 </html>
